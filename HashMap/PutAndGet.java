@@ -1,8 +1,7 @@
 package HashMap;
-
 import java.util.HashMap;
-
-public class PutAndGet {
+import java.util.Map;
+public class PutAndGet{
 
 
     public static void main(String[] args) {
@@ -14,6 +13,15 @@ public class PutAndGet {
 
     System.out.println(map.get("Krati"));
     System.out.println(map.containsKey("Jagrati"));
+     
+    System.out.println(map.getOrDefault("shikha", 7));
+    
+    System.out.println(map.containsValue(10));
+
+    for(Map.Entry<String, Integer> e: map.entrySet())
+    {
+        System.out.println(e.getKey()+ " ->" + e.getValue());
+    }
   
     }
 }
