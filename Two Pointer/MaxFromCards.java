@@ -2,7 +2,7 @@ public class MaxFromCards {
 
     public static void main(String[] args) {
         int[] arr = {6,2,3,4,7,2,1,7,1};
-        
+        // now write the logic
            int lSum =0, rSum =0, maxSum=0;
              for(int i=0; i<arr.length; i++)
              {
